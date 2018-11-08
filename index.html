@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="client.js"></script>
 </head>
+
 <body>
     <h1>Jquery</h1>
     <div id="content">
-        <input id="nameTxt" type="text" placeholder="name"/>
-        <input id="ageTxt" type="number" placeholder="age" />
-        <input id="foodTxt" type="text" placeholder="favorite food" />
-        <button id="submitBtn">Submit</button>
+        <div id="form">
+            <input id="nameTxt" type="text" placeholder="name" />
+            <input id="ageTxt" type="number" placeholder="age" />
+            <input id="foodTxt" type="text" placeholder="favorite food" />
+            <button id="submitBtn">Submit</button>
+        </div>
+
+        <ul id="output">
+          <li class="person highlight">Amie 32 pho</li>
+          <li class="person highlight">Morgan is 37 and like lucky charms</li>
+            
+        </ul>
     </div>
-    
+
 </body>
+
 </html>
